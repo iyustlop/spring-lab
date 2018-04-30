@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/iyustlop/spring-lab
+          searchPaths: config-data
+        native:
+          searchLocations: classpath:offline-repository/
+server:
+  port: 8001
