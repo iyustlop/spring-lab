@@ -1,3 +1,6 @@
 spring:
   application:
     name: spring-porsche
+  cloud:
+    config:
+      uri: http://localhost:8001
